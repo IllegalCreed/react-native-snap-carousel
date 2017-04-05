@@ -23,9 +23,6 @@
   ],
   "author": "Archriss",
   "license": "ISC",
-  "dependencies": {
-    "react-addons-shallow-compare": "latest"
-  },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
     "babel-preset-react-native": "^1.9.0",
@@ -38,7 +35,6 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-addons-shallow-compare": "*",
     "react-native": "*"
   }
 }

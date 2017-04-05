@@ -1,6 +1,5 @@
 import React, { Component, PropTypes } from 'react';
 import { ScrollView, Animated, Platform, Easing, I18nManager } from 'react-native';
-import shallowCompare from 'react-addons-shallow-compare';
 
 // React Native automatically handles RTL layouts; unfortunately, it's buggy with horizontal ScrollView
 // See https://github.com/facebook/react-native/issues/11960
@@ -165,7 +164,7 @@ export default class Carousel extends Component {
         if (this.props.shouldOptimizeUpdates === false) {
             return true;
         } else {
-            return shallowCompare(this, nextProps, nextState);
+            return true;
         }
     }
 
